@@ -1,6 +1,6 @@
 h2. Scala training - slides
 
-This github project contains slides used for the Scala training course. The code, which go along with the slides is located at "Scala training code":http://github.com/javaBin/scala-training-code.
+This github project contains slides used for the Scala training course. The code which goes along with the slides is located at "Scala training code":http://github.com/javaBin/scala-training-code.
 
 When doing the training course, we created a "VirtualBox":http://www.virtualbox.org/ image containing all the code and working versions of Java, Maven, Scala, Eclipse and IDEA. We used a trimmed down version of Debian Linux and we distrubuted it through "DropBox":https://www.dropbox.com/. If you would like a copy of the image we created, please contact us directly.
 
@@ -9,9 +9,9 @@ Each day of the course is meant to be approximately 4 hours.
 
 h3. Day one 
 
-The first day is very controlled. We start of by giving a motivation talk, then basic syntax and an intro to tools. After this the participants get a little hands on programming.
+The first day is very controlled. We start off by giving a motivation talk, then go through basic Scala syntax and an intro to tools. After this the participants get a little hands on programming.
 
-The course then proceeds with short intro's to topics (15-20 minutes) followed by programming tasks (about 30 minutes). The programming tasks are JUnit tests which give immediate feedback on correctness. It is important the participants are made aware that they may skip tasks if they get stuck, there are plenty of tasks for each topic.
+The course then proceeds with short intros to topics (15-20 minutes) followed by programming exercises (about 30 minutes). The programming exercises are JUnit tests which give immediate feedback on correctness. It is important the participants are made aware that they may skip exercises if they get stuck, there are plenty of exercises for each topic.
 
 The day ends with a motivational talk on pure functional programming.
 
@@ -20,7 +20,7 @@ Day one is divided into the following slide set/topic:
 
 h4. 1.1 - start.odp
  
-This is 10 minute motivational talk for learning Scala. Starts of with a few quotes on Scala from prominent figures in the community. Then shows quite a few code examples to show the power of Scala. We do not try to explain how these examples work, just the benefit. However it is a goal of the training class that everyone should be able to understand all the examples shown here at the en of the training course.
+This is 10 minute motivational talk for learning Scala. Starts off with a few quotes on Scala from prominent figures in the community, then shows quite a few code examples to show the power of Scala. We do not try to explain how these examples work, just the benefit. However it is a goal of the training class that everyone should be able to understand all the examples shown here at the end of the training course.
 
 h4. 1.2 - scala basics.odp
 
@@ -28,7 +28,7 @@ Covers a lot of the basic syntax in Scala compared with Java. We aimed here not 
 
 h4. 1.3 - tools_and_repl.odp
 
-Short discussion on available tools and IDE support. The first hands on task is followed by these slides. The aim of the hands on tasks is the see that everyone has a working environment. There are also very simple tasks to perform, to make the participants feel a little at ease.
+Short discussion on available tools and IDE support. The first hands on exercise is followed by these slides. The aim of the exercises is to see that everyone has a working development environment. There are also very simple tasks to perform, to make the participants feel a little at ease.
 
 1.1 - 1.3 is meant to be about and hour. We spent about 15 minutes doing the practical part of 1.3, including a short summary.
 
@@ -36,7 +36,7 @@ h4. 1.4 - firstclassfunctions.odp
 
 Defines first class functions and closures and how to use them. Also how this differs fundamentally from Java's iteration approach.
 
-We tried to make it a point about deferred execution, through a contrived example of a Swing action listener. Participants need to understand that even though it looks like first class functions are executed right then and there, they are actually executed later, whenever appropriate. In the Swing action listener example, whenever the button is pressed.
+We tried to make it a point about deferred execution, through a constructed example of a Swing action listener. Participants need to understand that even though it looks like first class functions are executed right then and there, they are actually executed later, whenever appropriate. In the Swing action listener example, whenever the button is pressed.
 
 Closures is explained in detail.
 
@@ -78,7 +78,7 @@ h3. Day two
 
 The second day of the training class is meant to bee more free than day one. This means that the participant are more free to explore the language on their own. 
 
-It starts of we a quick recap of day one. Following is two advanced topics. With "advanced" we mean concepts the participants have to understand, but not necessarily write themselves. At least not every day. We then to an intro to Scala's XML support followed by the programming task of the day. We set 3 hours for the task. The day ends with information on where to go next, that is good resources on learning more Scala.
+It starts of we a quick recap of day one. Following is two advanced topics. With "advanced" we mean concepts the participants have to understand in order to use Scala and Scala libraries, but not necessarily be able to write themselves. At least not every day. We then give an intro to Scala's XML support followed by the programming task of the day. We set 3 hours for the task. The day ends with information on where to go next, with pointers to some good resources on learning more Scala.
 
 h4. 2.1 - recap from day one.odp
 
@@ -86,7 +86,7 @@ This is a really short wrap up of most of the topics of day one. This is meant t
 
 h4. 2.2 - higherorderfunctions.odp
 
-Defines higher order functions and how they are used. Also discusses 'call by name' vs 'call by value'. We chose to show the 'using' example for closing resources, shown by Martin Odersky several times, for instance at "Fosdem":http://www.slideshare.net/Odersky/fosdem-2009-1013261. This also introduced structural types. We also felt it was important to explain that structural types are not thread safe and use reflections, which may lead to unexpected behavior. However they can be extremely powerful when used appropriately.
+Defines higher order functions and how they are used. Also discusses 'call by name' vs 'call by value'. We chose to show the 'using' example for closing resources, shown by Martin Odersky several times, for instance at "Fosdem":http://www.slideshare.net/Odersky/fosdem-2009-1013261. This also introduced structural types. We also felt it was important to explain that structural types are not thread safe and use reflection, which may lead to unexpected behavior. However they can be extremely powerful when used appropriately.
 
 This section should not take more than 15 minutes.
 
@@ -102,18 +102,18 @@ A short introduction to the XML support in Scala. This is mainly meant to help a
 
 h4. 2.5 - The quiz game.odp
 
-A short intro and demo of what the participant should create. Both shows the console game and the Swing game in action. Show part of the code, for instance the model classes. Also show that the provided Mock quiz, that participant may use if they are stuck with XML parsing.
+A short intro to the exercise and demo of what the participant should create. Both shows the console game and the Swing game in action. Show part of the code, for instance the model classes. Also show that the provided Mock quiz which participants may use if they are stuck on XML parsing.
 
 This part should be about 3 hours. When participants start to finish up, it might be an idea to wrap up.
 
 h4. 2.6 - summary day 2.odp
 
-Basically tries to point the participants in a direction for learning more Scala.
+Basically tries to point the participants in directions for learning more Scala.
 
 h3. License
 
 The training course is licensed under "Creative Commons Attribution 3.0 Unported":http://creativecommons.org/licenses/by/3.0/.
 
-All this means, is that you need to credit Fredrik Vraalsen (fredrik@vraalsen.no) and Alf Kristian Støyle (alf.kristian@gmail.com) of scalaBin for the original work. A part from that you may do whatever you please with the work.
+All this means, is that you need to credit Fredrik Vraalsen (fredrik@vraalsen.no) and Alf Kristian Støyle (alf.kristian@gmail.com) of scalaBin for the original work. Apart from that you may do whatever you please with the work.
 
 We hope you find it useful.
